@@ -4,7 +4,7 @@ DBRE（Database Reliability Engineering）に関連した学習をするため�
 
 DBA としての経験をベースに、SLI/SLO の設計・監視・障害対応・IaC といった「DB を信頼性の観点から運用する」スキルを身につけることを目的とする。
 
-学習の進め方と現在地は [`roadmap.md`](./roadmap.md) を参照。
+学習の進め方と現在地は [`docs/roadmap.md`](./docs/roadmap.md) を参照。
 
 ---
 
@@ -46,8 +46,8 @@ DBA としての経験をベースに、SLI/SLO の設計・監視・障害対�
 ```
 DBRE-workspace/
 ├── README.md
-├── roadmap.md            # 学習ロードマップと進捗
 ├── docs/
+│   ├── roadmap.md        # 学習ロードマップと進捗
 │   ├── notes/            # 学習ノート（書籍・記事の要点、用語整理）
 │   ├── design-logs/      # 設計の検討ログ（なぜそうしたか、比較した案）
 │   ├── drills/           # 障害演習の記録

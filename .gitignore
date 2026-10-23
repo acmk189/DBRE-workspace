@@ -1,0 +1,18 @@
+# シークレット（このリポジトリは public）
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# AWS CDK
+cdk.out/
+
+# Terraform（state にはシークレットが含まれうる）
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# OS / エディタ
+.DS_Store
