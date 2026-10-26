@@ -45,7 +45,7 @@ PhysiFun 側の実装は親 Issue「SRE を導入する」で管理する。
 
 ### タスク
 
-- [ ] Google SRE 本「Service Level Objectives」の章を読んでノートにまとめる → `docs/notes/slo-basics.md`
+- [x] Google SRE 本「Service Level Objectives」の章を読んでノートにまとめる → `docs/notes/slo-basics.md`
 - [ ] SRE Workbook「Implementing SLOs」の章を読んでノートにまとめる
 - [ ] 自分用の「SLO 設計チェックリスト」を作る → `docs/notes/slo-checklist.md`
 - [ ] PhysiFun のユーザージャーニーを洗い出す（リーダー応募、運営審査、メール送信、cron など）
@@ -133,3 +133,4 @@ PhysiFun 側の実装は親 Issue「SRE を導入する」で管理する。
 | ---------- | ---------------------------------------- |
 | 2026-10-22 | リポジトリ作成、README・ロードマップ作成 |
 | 2026-10-23 | ディレクトリ構成と `.gitignore` を作成   |
+| 2026-10-25 | SRE 本 第 4 章のノートを作成             |
