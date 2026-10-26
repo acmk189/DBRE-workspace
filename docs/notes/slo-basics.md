@@ -2,6 +2,8 @@
 
 出典：[Site Reliability Engineering, Chapter 4 - Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
 
+> ⚠️ 本文と照合前のメモ。作成時に sre.google に接続できなかったため、細部や具体例は本文で要確認。
+
 ## 3 行まとめ
 
 - 何を測り（SLI）、どこを目指し（SLO）、外したらどうなるか（SLA）を分けて決める
@@ -186,7 +188,9 @@ SLO を公開すると、ユーザーはそのサービスが自分の用途に�
 - **目標値を決める**根拠は、ユーザーが何を必要としているか
 - 現状値をそのまま目標にすると、「今たまたま出ている数字」を守るために無理をすることになる
 
-ロードマップの観点 4 は「現状を知らずに目標を決めない」と読み替えるのがよさそう。Workbook を読んだら改めて見直す。
+ロードマップの観点 4 は「現状を知らずに目標を決めない」と読み替えるのがよさそう。
+
+→ Workbook での整理は [SLO の実装（SRE Workbook 第 2 章）](./implementing-slos.md) の「メモ：第 4 章との違い」を参照。
 
 ---
 
